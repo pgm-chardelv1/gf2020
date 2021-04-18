@@ -1,0 +1,233 @@
+.container.event-detail {
+  margin: 3rem auto;
+}
+
+.event-det {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-det > .event-det__item {
+  margin-top: .5rem;
+  width: 90%;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 48.1rem) {
+  .event-det > .event-det__item {
+    margin-top: 3rem;
+    width: auto;
+    flex-basis: 45%;
+    flex-grow: 1;
+  }
+
+  .event-det__item:last-child {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .event-det > .event-det__item {
+    margin-top: 0;
+  }
+}
+
+.media img {
+  max-width: 100%;
+  padding-left: 0;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 48rem) {
+  .media img {
+    margin-left: .6rem;
+  }
+}
+
+.event-det__title {
+  font-size: 2.2rem;
+  word-break: keep-all;
+  font-weight: 900;
+  transition: font-size 0.4s ease;
+}
+
+@media screen and (min-width: 64rem) {
+  .event-det__title {
+    font-size: 3rem;
+  }
+}
+
+.event-det__location::before {
+  content: '';
+  display: inline-flex;
+  background-image: url('../media/images/svg/marker.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: 1.5rem;
+  margin-right: .5rem;
+}
+
+.event-det__location {
+  font-size: 1.2rem;
+  display: inline-flex;
+}
+
+.event-det__location,
+.event-det__datetime {
+  margin-bottom: 1.5rem;
+}
+
+.link__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 25rem) {
+  .link__item {
+    flex-direction: row;
+  }
+}
+
+.event__link {
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, rgba(210,210,210,0.8), rgba(210,210,230,.9));
+  background-position: 0% bottom;
+  background-size: 0% .5rem;
+  background-repeat: no-repeat;
+  transition: background-size linear 0.4s;
+}
+
+.event__link:hover {
+  background-size: 100% .5rem;
+}
+
+.link__item a[target="_blank"]::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  left: .3rem;
+  bottom: .2rem;
+  background-image: url('../media/images/svg/external-link.svg');
+  width: 1.5rem;
+  height: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link__desc {
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 25rem) {
+  .link__desc {
+    flex-basis: 9rem;
+    flex-shrink: 0;
+  }
+}
+
+.link-categories .event__link {
+  line-height: 1.8;
+}
+
+.event-det__share {
+  display: flex;
+}
+
+.event-det__share-cont {
+  display: block;
+  padding: .5rem;
+  line-height: 1;
+  background-color: rgb(233, 233, 233);
+  transition: all 0.3s ease;
+}
+
+.event-det__share-cont:hover {
+  filter: invert(100%);
+}
+
+.event-det__share-cont + * {
+  margin-left: 1rem;
+}
+
+.wheelchair-icon {
+  margin-bottom: 1rem;
+}
+
+.related-events-list {
+  flex-direction: column;
+}
+
+.related-events-list h2 {
+  display: block;
+  font-size: 2rem;
+  margin-left: .75rem;
+  font-weight: 900;
+  word-break: break-all;
+}
+
+.event-list--text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  max-width: 72rem;
+  list-style: none;
+  list-style-position: inside;
+}
+
+.event-list--text .event {
+  max-width: 100%;
+  display: block;
+}
+
+.event-list--text .event .inner {
+  position: relative;
+  margin-top: .75rem;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+.event-list--text .event a:hover ~ .inner {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.event-list--text .event .event__time {
+  background-color: transparent;
+  color: inherit;
+  font-size: 1.1rem;
+  padding-left: 0;
+}
+
+.event-list--text .event .event__title {
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 30rem) {
+  .event-list--text .event .event__title {
+    flex-basis: 58%;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}
+
+.event-list--text .event .event__location {
+  margin-right: 1.5rem;
+}
