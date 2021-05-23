@@ -23,15 +23,15 @@ const placeholderImages = [
 ];
 
 const slideshowImages = [
-  '../media/images/48367503687_056c5daf17_k.jpg',
-  '../media/images/48355857457_e06488ec42_k.jpg',
-  '../media/images/48373160327_ee6c7fba94_k.jpg',
-  '../media/images/48355685776_3caefa69e7_o.jpg',
-  '../media/images/48371773026_a3e7827f37_o.jpg',
-  '../media/images/48355722156_4da58767c9_6k_0.jpg',
-  '../media/images/48345161447_47e183a86e_o.jpg',
-  '../media/images/48339187127_d799ebe44f_o.jpg',
-  '../media/images/48339187127_d799ebe44f_o (1).jpg',
-  '../media/images/48331557897_f5c20e1425_o.jpg',
-  '../media/images/48371773296_f6b54d61a1_o.jpg',
+  './media/images/48367503687_056c5daf17_k.jpg',
+  './media/images/48355857457_e06488ec42_k.jpg',
+  './media/images/48373160327_ee6c7fba94_k.jpg',
+  './media/images/48355685776_3caefa69e7_o.jpg',
+  './media/images/48371773026_a3e7827f37_o.jpg',
+  './media/images/48355722156_4da58767c9_6k_0.jpg',
+  './media/images/48345161447_47e183a86e_o.jpg',
+  './media/images/48339187127_d799ebe44f_o.jpg',
+  './media/images/48339187127_d799ebe44f_o (1).jpg',
+  './media/images/48331557897_f5c20e1425_o.jpg',
+  './media/images/48371773296_f6b54d61a1_o.jpg',
 ];
