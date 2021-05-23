@@ -23,14 +23,15 @@ const placeholderImages = [
 ];
 
 const slideshowImages = [
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48367503687_056c5daf17_k.jpg?itok=UmhaZRFv',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48355857457_e06488ec42_k.jpg?itok=KuYvnNft',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48373160327_ee6c7fba94_k.jpg?itok=fyOv5J4w',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48355685776_3caefa69e7_o.jpg?itok=aSSADpSn',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48371773026_a3e7827f37_o.jpg?itok=3h5qTJID',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48355722156_4da58767c9_6k_0.jpg?itok=Lbm9fZ4z',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48345161447_47e183a86e_o.jpg?itok=rQYgngaO',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48339187127_d799ebe44f_o%20%281%29.jpg?itok=1Nv0sqg3',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48331557897_f5c20e1425_o.jpg?itok=Wh2QrH5p',
-  'https://gentsefeesten.stad.gent/sites/default/files/styles/big_3_2/public/2020-07/48371773296_f6b54d61a1_o.jpg?h=287933e2&itok=OLbvobnb'
+  '../media/images/48367503687_056c5daf17_k.jpg',
+  '../media/images/48355857457_e06488ec42_k.jpg',
+  '../media/images/48373160327_ee6c7fba94_k.jpg',
+  '../media/images/48355685776_3caefa69e7_o.jpg',
+  '../media/images/48371773026_a3e7827f37_o.jpg',
+  '../media/images/48355722156_4da58767c9_6k_0.jpg',
+  '../media/images/48345161447_47e183a86e_o.jpg',
+  '../media/images/48339187127_d799ebe44f_o.jpg',
+  '../media/images/48339187127_d799ebe44f_o (1).jpg',
+  '../media/images/48331557897_f5c20e1425_o.jpg',
+  '../media/images/48371773296_f6b54d61a1_o.jpg',
 ];
